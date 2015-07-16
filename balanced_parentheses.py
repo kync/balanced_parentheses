@@ -34,6 +34,6 @@ def balanced_parentheses(expression):
 
     return len(stack) == 0
 if __name__ == '__main__':
-	print(balanced_parentheses('(()())({})[]'))#True
+    print(balanced_parentheses('(()())({})[]'))#True
     print(balanced_parentheses('((ali)(koyuncu))({})[]'))#True
     print(balanced_parentheses('(()())())'))#False

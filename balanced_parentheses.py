@@ -27,7 +27,7 @@ def balanced_parentheses(expression):
                 skip = True
                 left = ''
                 if len(stack) > 0:
-                    left = stack[len(stack) - 1]
+                    left = stack[- 1]
         if not skip:
             left = exp
             stack.append(exp)
